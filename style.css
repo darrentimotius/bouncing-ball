@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+    font-family: monospace;
+}
+canvas {
+    display: block;
+}
+#stats {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    color: #333;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 8px;
+    border: 1px solid #ccc;
+    pointer-events: none;
+}
